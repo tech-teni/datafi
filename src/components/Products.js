@@ -19,7 +19,7 @@ const Products = ({}) => {
           {products.map((each)=>{
 
           return <li className='product' key={each.id} onClick={(e)=>{
-            navigate('/view-product')
+            navigate(`/view-product/:${each.id}`)
 
           }}>
           <div><h5>{each.name}</h5>
