@@ -14,6 +14,7 @@ function App() {
     <BrowserRouter >
     <Routes>
       <Route  path='/'  element={<HomePage/>}/>
+     <Route  path='/view-product/:id'  element={<ViewProduct/>}/> 
 
     </Routes>
     </BrowserRouter>

@@ -86,3 +86,9 @@ margin: 0px;
     background-color: rgb(101, 101, 101);
   }
   
+
+  .view-product{
+    height: 300px;
+margin: auto;
+margin-top: 50px;
+  }
